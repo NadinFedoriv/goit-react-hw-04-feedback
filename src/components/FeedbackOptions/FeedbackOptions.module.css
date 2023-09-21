@@ -1,0 +1,15 @@
+.feedback {
+display: flex;
+justify-content: space-between;
+}
+
+.button {
+width: 80px;
+background-color: rgb(245, 233, 233);
+cursor: pointer;
+border-radius: 5px;
+
+&:hover {
+    background-color: rgb(221, 208, 240);
+}
+}
